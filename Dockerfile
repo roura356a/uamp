@@ -13,3 +13,5 @@ RUN apt-get install php libapache2-mod-php php-mcrypt php-mysql
 # TODO: Some PHP modules maybe?
 
 RUN systemctl restart apache2
+
+EXPOSE 80 443 3306
